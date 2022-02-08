@@ -10,9 +10,8 @@ class SignInButton extends StatelessWidget {
   /// The `SignInButton` class already contains general used buttons.
   /// In case of other buttons, user can always use `SignInButtonBuilder`
   /// to build the signin button.
-
   /// onPressed function should be passed in as a required field.
-  final Function onPressed;
+  final Function? onPressed;
 
   /// button should be used from the enum class `Buttons`
   final Buttons button;
